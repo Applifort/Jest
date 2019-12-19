@@ -1,7 +1,7 @@
-import reverse from '../src';
+import reverse from '../../src';
 import _ from 'lodash';
-import without from '../src/without';
-import { gt } from '../src/functions';
+import without from '../../src/without';
+import { gt } from '../../src/functions';
 
 test('reverse', () => {
   expect(reverse('hello')).toEqual('olleh');
